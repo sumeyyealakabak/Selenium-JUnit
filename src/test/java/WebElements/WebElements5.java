@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class WebElemets5 {
+public class WebElements5 {
     public static void main(String[] args) throws InterruptedException {
 
         //1- Go to https://the-internet.herokuapp.com/add_remove_elements/
@@ -17,8 +17,8 @@ public class WebElemets5 {
         driver.get("https://the-internet.herokuapp.com/add_remove_elements/");
 
         //2- Click the 'Add Element'
-        WebElement addElemet = driver.findElement(By.xpath("//button[@onclick='addElement()']"));
-        addElemet.click();
+        driver.findElement(By.xpath("//*[text()='Add Element']")).click();
+
 
         //3- Test that the 'delete button' is displayed
         WebElement deleteButonElement= driver.findElement(By.xpath("//button[@class ='added-manually']"));
