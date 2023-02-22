@@ -13,5 +13,45 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.5.3</version>
+        </dependency>
+
+        <!--
+        1. By typing selenium java in mvn repository there
+        We go to the GitHub repository address of selenium java.
+        Copy and paste the above here:
+        Go to this address"org.seleniumhq"
+        It's getting libraries from version 4.5.3. adding to our project
+
+        We need webdriver too*/-->
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+
+        <!--
+        2. The dependencies with the above web driver are on our behalf
+         go and download the GitHub files above
+         imports jar files -->
+
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!--3. We get help from (WebDriverManager) Junit library for test notation(@Test),
+         we can run each test method independently-->
+    </dependencies>
 
 </project>
