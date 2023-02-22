@@ -1,4 +1,4 @@
-package seleniumDriversMethods;
+package SeleniumDriversMethods;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
