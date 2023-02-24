@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class TestAnnotation {
+public class C02_TestAnnotation {
     /*
         Framework : Joint working framework
                     It determines which files we create where, thus facilitating batch work

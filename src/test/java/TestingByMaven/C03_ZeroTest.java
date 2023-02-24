@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class ZeroTest {
+public class C03_ZeroTest {
        /*
        1. http://zero.webappsecurity.com sayfasina gidin
        2. Click the "Sign in" button
