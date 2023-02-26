@@ -1,4 +1,4 @@
-package TestingByMaven;
+package Junit;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C05_BeforeClass_AfterClass {
+public class C02_BeforeClass_AfterClass {
     static WebDriver driver;
 
     @BeforeClass
