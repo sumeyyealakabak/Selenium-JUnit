@@ -52,6 +52,14 @@
         </dependency>
         <!--3. We get help from (WebDriverManager) Junit library for test notation(@Test),
          we can run each test method independently-->
+
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <!--isim ya da baska bilgileri rast gele secmemizi saglayan class -->
     </dependencies>
 
 </project>
