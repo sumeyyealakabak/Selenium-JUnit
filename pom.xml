@@ -60,6 +60,14 @@
             <version>1.0.2</version>
         </dependency>
         <!--isim ya da baska bilgileri rast gele secmemizi saglayan class -->
+
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
     </dependencies>
 
 </project>
